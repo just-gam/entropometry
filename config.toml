@@ -7,13 +7,14 @@ default_language = "es"
 
 # Configuraciones que elegiste en zola init
 compile_sass = true
-highlight_code = true
 build_search_index = true
-generate_feed = true
 
 # Taxonomías
-[taxonomies]
-tags = ["name", "feed", "paginate_by", "paginate_path"]
+[[taxonomies]]
+name = "tags"
+feed = true
+paginate_by = 5
+paginate_path = "page"
 
 # Configuración de markdown
 [markdown]
@@ -65,21 +66,24 @@ name = "Archivo"
 url = "/archive/"
 
 [[extra.menu]]
-name = "Sobre mí"
+name = "Sobre-mi"
 url = "/about/"
 
 # Redes sociales (actualiza con tus perfiles reales)
 [[extra.socials]]
 name = "github"
-url = "https://github.com/tu-usuario"  # Cambiar por tu GitHub
+icon = "github"
+url = "https://github.com/tu-usuario"
 
 [[extra.socials]]
 name = "twitter"
-url = "https://twitter.com/tu-usuario"  # Opcional
+icon = "twitter"
+url = "https://twitter.com/tu-usuario"
 
 [[extra.socials]]
 name = "linkedin"
-url = "https://linkedin.com/in/tu-perfil"  # Opcional
+icon = "linkedin"
+url = "https://linkedin.com/in/tu-perfil"
 
 # Configuración de comentarios (la configuraremos después)
 [extra.giscus]
