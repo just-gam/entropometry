@@ -1,0 +1,89 @@
+# URL temporal - cambiar cuando tengas dominio
+base_url = "https://example.com"
+title = "Entroponomist"
+description = "Blog personal de un estudiante tech savvy de economía"
+theme = "tabi"
+default_language = "es"
+
+# Configuraciones que elegiste en zola init
+compile_sass = true
+highlight_code = true
+build_search_index = true
+generate_feed = true
+
+# Taxonomías
+[taxonomies]
+tags = ["name", "feed", "paginate_by", "paginate_path"]
+
+# Configuración de markdown
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+render_emoji = true
+external_links_target_blank = true
+external_links_no_follow = true
+external_links_no_referrer = true
+smart_punctuation = true
+
+# Configuración del tema tabi
+[extra]
+# Apariencia
+default_theme = ""  # Sigue preferencia del sistema
+theme_switcher = true
+skin = "teal"  # Puedes cambiar: teal, lavender, red, mint, sakura, blue, etc.
+
+# Tu información (actualiza con tus datos reales)
+email = "tu@email.com"  # Cambiar por tu email real
+author = "Tu Nombre"    # Cambiar por tu nombre real
+copyright = "© 2025 Tu Nombre. Todos los derechos reservados."
+
+# Configuración de seguridad (optimizada para Cloudflare)
+enable_csp = true
+allowed_domains = [
+    { directive = "font-src", domains = ["'self'", "data:"] },
+    { directive = "img-src", domains = ["'self'", "https://*", "data:"] },
+    { directive = "script-src", domains = ["'self'"] },
+    { directive = "style-src", domains = ["'self'"] },
+    { directive = "connect-src", domains = ["'self'"] },
+]
+
+# Menú de navegación
+[[extra.menu]]
+name = "Inicio"
+url = "/"
+
+[[extra.menu]]
+name = "Blog"
+url = "/blog/"
+
+[[extra.menu]]
+name = "Proyectos"
+url = "/projects/"
+
+[[extra.menu]]
+name = "Archivo"
+url = "/archive/"
+
+[[extra.menu]]
+name = "Sobre mí"
+url = "/about/"
+
+# Redes sociales (actualiza con tus perfiles reales)
+[[extra.socials]]
+name = "github"
+url = "https://github.com/tu-usuario"  # Cambiar por tu GitHub
+
+[[extra.socials]]
+name = "twitter"
+url = "https://twitter.com/tu-usuario"  # Opcional
+
+[[extra.socials]]
+name = "linkedin"
+url = "https://linkedin.com/in/tu-perfil"  # Opcional
+
+# Configuración de comentarios (la configuraremos después)
+[extra.giscus]
+enabled_for_all_posts = false
+automatic_loading = true
+# repo = "tu-usuario/tu-blog"  # Descomentar cuando tengas el repo
+# Los demás campos los configuraremos cuando tengas dominio
