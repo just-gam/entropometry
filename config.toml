@@ -29,6 +29,8 @@ smart_punctuation = true
 # Configuración del tema tabi
 [extra]
 # Apariencia
+iine = true
+iine_cdn = true
 theme_switcher = false
 default_theme = "dark"
 skin = "lavender"  # Puedes cambiar: teal, lavender, red, mint, sakura, blue, etc.
@@ -76,14 +78,19 @@ icon = "github"
 url = "https://github.com/just-gam"
 
 [[extra.socials]]
-name = "twitter"
-icon = "twitter"
-url = "https://twitter.com/tu-usuario"
+name = "x"
+icon = "x"
+url = "https://x.com/autismTwilight"
 
 [[extra.socials]]
-name = "linkedin"
-icon = "linkedin"
-url = "https://linkedin.com/in/tu-perfil"
+name = "simkl"
+icon = "letterboxd"
+url = "https://simkl.com/7290636/"
+
+[[extra.socials]]
+name = "instagram"
+icon = "instagram"
+url = "https://www.instagram.com/just.gam"
 
 # Configuración de comentarios (la configuraremos después)
 [extra.giscus]
