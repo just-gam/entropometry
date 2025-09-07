@@ -1,5 +1,5 @@
 # URL temporal - cambiar cuando tengas dominio
-base_url = "https://example.com"
+base_url = "https://entroponomist.quest/"
 title = "Entroponomist"
 description = "Blog personal de un estudiante tech savvy de economía"
 theme = "tabi"
