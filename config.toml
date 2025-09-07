@@ -68,7 +68,7 @@ name = "Archivo"
 url = "/archive/"
 
 [[extra.menu]]
-name = "Sobre-mi"
+name = "Sobre mi"
 url = "/about/"
 
 # Redes sociales (actualiza con tus perfiles reales)
