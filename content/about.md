@@ -6,7 +6,7 @@ date = 2025-09-06
 
 # ¡Hola! Me llamo Julián
 
-Aunque me considero un políglota, actualmente estoy en un viaje académio hasta, por lo pronto, licenciarme en economía.
+Aunque me considero un polímata, actualmente estoy en un viaje académio hasta, por lo pronto, licenciarme en economía.
 
 ## Mis intereses
 
