@@ -1,5 +1,5 @@
 # URL temporal - cambiar cuando tengas dominio
-base_url = "https://entroponomist.quest/"
+base_url = "https://entroponomist.quest"
 title = "Entroponomist"
 description = "Blog personal de un estudiante tech savvy de economía"
 theme = "tabi"
@@ -34,9 +34,9 @@ default_theme = "dark"
 skin = "lavender"  # Puedes cambiar: teal, lavender, red, mint, sakura, blue, etc.
 
 # Tu información (actualiza con tus datos reales)
-email = "tu@email.com"  # Cambiar por tu email real
-author = "Tu Nombre"    # Cambiar por tu nombre real
-copyright = "© 2025 Tu Nombre. Todos los derechos reservados."
+email = "gomezjulianagustin@proton.me"  # Cambiar por tu email real
+author = "Julián Gómez"    # Cambiar por tu nombre real
+copyright = "© 2025 Julián Gómez. Todos los derechos reservados."
 
 # Configuración de seguridad (optimizada para Cloudflare)
 enable_csp = true
