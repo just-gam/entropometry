@@ -1,6 +1,7 @@
 +++
 title = "Sobre mí"
 template = "info-page.html"
+date = 2025-09-06
 +++
 
 # ¡Hola! Me llamo Julián
@@ -15,7 +16,7 @@ Aunque me considero un políglota, actualmente estoy en un viaje académio hasta
 - Economía
 - Tecnología
 - Open Source
-- Gaming
+- Electrónica
 
 ## ¿Qué Hago?
 

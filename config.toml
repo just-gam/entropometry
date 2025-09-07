@@ -29,9 +29,9 @@ smart_punctuation = true
 # Configuración del tema tabi
 [extra]
 # Apariencia
-default_theme = ""  # Sigue preferencia del sistema
-theme_switcher = true
-skin = "teal"  # Puedes cambiar: teal, lavender, red, mint, sakura, blue, etc.
+theme_switcher = false
+default_theme = "dark"
+skin = "lavender"  # Puedes cambiar: teal, lavender, red, mint, sakura, blue, etc.
 
 # Tu información (actualiza con tus datos reales)
 email = "tu@email.com"  # Cambiar por tu email real
@@ -73,7 +73,7 @@ url = "/about/"
 [[extra.socials]]
 name = "github"
 icon = "github"
-url = "https://github.com/tu-usuario"
+url = "https://github.com/just-gam"
 
 [[extra.socials]]
 name = "twitter"
